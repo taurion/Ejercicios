@@ -10,14 +10,13 @@ package Ejercicios;
  */
 public class Producto {
     
-    
+    //FACTORIAL
     public static int Mult(int n){
       if(n<0){
             System.err.println("No se permite");
         }else{
         if(n==0) return 1;
         else return n * Mult(n-1);
-           
             }
         return 0;
         

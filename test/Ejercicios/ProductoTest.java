@@ -48,7 +48,7 @@ public class ProductoTest {
         assertEquals(expResult, result);
         
         System.out.println("Mult 1");
-        n = 1;
+        n = 0;
         expResult = 1;
         result = Producto.Mult(n);
         assertEquals(expResult, result);
