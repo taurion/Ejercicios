@@ -31,5 +31,7 @@ public class Main {
         int[] primer_vector ={10,1,3};
         int[] segundo_vector ={10,1,3};
         int[] sumaV = Ejercicios.SumaVectores.SumVec(primer_vector,segundo_vector);
+       System.out.println("-------fb---------");
+        System.out.println(Ejercicios.Fibonacci.NFibonacci(5));
     }
 }
